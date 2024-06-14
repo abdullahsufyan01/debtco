@@ -152,6 +152,9 @@
 
 .ourWebsite a{
   padding: 5px;
+  @media (max-width: 600px){
+    padding: 8px;
+  }
 }
 
 .frame31{
@@ -220,6 +223,9 @@
 
 .link span{
   padding: 5px;
+  @media (max-width: 600px){
+    padding: 8px;
+  }
 }
 
 .info{
