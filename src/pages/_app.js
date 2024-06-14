@@ -39,7 +39,8 @@ export default function App({ Component, pageProps }) {
           <link rel="mask-icon" href="/static/img/favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5" />
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
-          <link fetchpriority="high" rel='preload' as='image' href='/static/img/home/hero2.svg' type='image/jpeg'/>
+          <link fetchpriority="high" rel='preload' as='image' href='/static/img/home/hero2.svg' type='image/svg+xml'/>
+          <link fetchpriority="high" rel='preload' as='image' href='/static/img/home/heroMobile2.svg' type='image/svg+xml'/>
       </Head>
       <Script
         id="fb-pixel"

@@ -147,10 +147,10 @@ function HomePc(props) {
     <div className="container-center-horizontal">
       <div className={classNames(styles.root, 'screen')}>
         <div className={styles.background}>
-          <Image src={'static/img/home/hero2.svg'} alt={'Grey line art of sunrise via a beach perspective.'} fill={true} objectFit={'cover'}/>
+          <Image src={'static/img/home/hero2.svg'} alt={'Grey line art of sunrise via a beach perspective.'} fill={true} priority/>
         </div>
         <div className={styles.backgroundMobile}>
-          <Image src={'static/img/home/heroMobile2.svg'} alt={'Grey line art of sunrise via a beach perspective.'} fill={true} objectFit={'cover'}/>
+          <Image src={'static/img/home/heroMobile2.svg'} alt={'Grey line art of sunrise via a beach perspective.'} fill={true} priority/>
         </div>
           <div className={styles.overlapGroup8}>
             <h1 className={styles.takeControlOverYo}>
@@ -193,7 +193,7 @@ function HomePc(props) {
         </div>
         <div className={styles.flexCol2}>
           <div className={styles.flexRow1}>
-            {!isTabletBreakpoint && <Image className={styles.sombruilla} src={'static/img/home/sombruilla2.svg'} alt="sombruilla 1" width={526} height={534} objectFit={'cover'}/>}
+            {!isTabletBreakpoint && <Image className={styles.sombruilla} src={'static/img/home/sombruilla2.svg'} alt="sombruilla 1" width={526} height={534} />}
             <div className={styles.frame25}>
               <div className={styles.frame231}>
                 {
