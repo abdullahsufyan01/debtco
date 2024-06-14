@@ -147,6 +147,10 @@
   }
 }
 
+.ourWebsite a{
+  padding: 5px;
+}
+
 .frame31{
   width: 145px;
   position: relative;
@@ -209,6 +213,7 @@
   letter-spacing: 0;
   line-height: normal;
   color: inherit;
+  padding: 5px;
 }
 
 .info{
