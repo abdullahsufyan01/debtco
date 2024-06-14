@@ -147,10 +147,10 @@ function HomePc(props) {
     <div className="container-center-horizontal">
       <div className={classNames(styles.root, 'screen')}>
         <div className={styles.background}>
-          <Image src={'static/img/home/hero2.svg'} alt={'Grey line art of sunrise via a beach perspective.'} fill={true} priority/>
+          <Image src={'static/img/home/hero2.svg'} alt={'Grey line art of sunrise via a beach perspective.'} fill priority/>
         </div>
         <div className={styles.backgroundMobile}>
-          <Image src={'static/img/home/heroMobile2.svg'} alt={'Grey line art of sunrise via a beach perspective.'} fill={true} priority/>
+          <Image src={'static/img/home/heroMobile2.svg'} alt={'Grey line art of sunrise via a beach perspective.'} fill  priority/>
         </div>
           <div className={styles.overlapGroup8}>
             <h1 className={styles.takeControlOverYo}>
