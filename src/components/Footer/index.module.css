@@ -216,6 +216,9 @@
   letter-spacing: 0;
   line-height: normal;
   color: inherit;
+}
+
+.link span{
   padding: 5px;
 }
 
