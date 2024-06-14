@@ -35,7 +35,7 @@ function Header(props) {
 
   const handleMenuClick = () => {
     setIsMenuOpen(!isMenuOpen);
-    console.log('Toggle menu home');
+    // console.log('Toggle menu home');
   }
 
   return (

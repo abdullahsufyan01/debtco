@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import Image from 'next/image';
+// import Image from 'next/image';//u
 import { Container } from '@/components/Container';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';

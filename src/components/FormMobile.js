@@ -36,7 +36,7 @@ export function FormMobile() {
       debt_amount: debtAmount,
       contact_time: time.hour+':'+time.minute,
     }
-    console.log(payload, FORM_SUBMIT_URL);
+    // console.log(payload, FORM_SUBMIT_URL);
     const response = await fetch(
       FORM_SUBMIT_URL,
       {

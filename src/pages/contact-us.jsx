@@ -1,19 +1,19 @@
 import React, { useId, useRef, useState } from 'react'
-import Link from 'next/link'
+// import Link from 'next/link' //u
 
 import { Container } from '@/components/Container'
 // import DebtCoSplash from '@/components/DebtCoSplash'
 import Head from 'next/head';
 // import { Footer } from '@/components/Footer';
-import Image from 'next/image';
+// import Image from 'next/image'; //u
 // import { Header } from '@/components/Header';
 // import { Button } from '@/components/Button';
 import Header from '@/components/Header';
-import Button from '@/components/Button';
+// import Button from '@/components/Button';//u
 import Footer from '@/components/Footer';
-import coconutSun from 'public/static/img/croppedCoconutSun.svg'
-import crabSign from 'public/static/img/Crab_Sign.svg'
-import crabCredit from 'public/static/img/CrabCredit.svg';
+// import coconutSun from 'public/static/img/croppedCoconutSun.svg'//u
+// import crabSign from 'public/static/img/Crab_Sign.svg'//u
+// import crabCredit from 'public/static/img/CrabCredit.svg';//u
 import Frame28 from '@/components/Frame28';
 // import { AnimatedForm } from '@/components/AnimatedForm';
 // import { AnimatePresence } from 'framer-motion';
@@ -22,17 +22,17 @@ import Frame28 from '@/components/Frame28';
 import generatePageSEO from '@/utils/generatePageSEO';
 
 export default function ContactUs() {
-  const [formOpen, setFormOpen] = useState(false);
-  const [modalAnimateSectionId, setModalAnimateSectionId] = useState(null);
+  // const [formOpen, setFormOpen] = useState(false);//u
+  // const [modalAnimateSectionId, setModalAnimateSectionId] = useState(null);//u
 
-  const toggleFormOpen = () => {
-    setFormOpen(value => !value);
-  };
+  // const toggleFormOpen = () => {
+  //   setFormOpen(value => !value);
+  // };//u
 
-  const handleSavingsClick = () => {
-    console.log('savings click')
-    // implement wi h popout modal form later ?
-  }
+  // const handleSavingsClick = () => {
+  //   // console.log('savings click')
+  //   // implement wi h popout modal form later ?
+  // }
   return (
     <>
       <Head>

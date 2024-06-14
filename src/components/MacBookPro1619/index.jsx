@@ -29,7 +29,7 @@ function MacBookPro1619(props) {
   ///rotate Tablermenu2 image and show MenuMobile
   const handleMenuClick = () => { 
     setIsMenuOpen(!isMenuOpen);
-    console.log('Toggle menu home');
+    // console.log('Toggle menu home');
   }
 
   return (

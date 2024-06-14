@@ -1,10 +1,10 @@
 import React, { useEffect, useState, useRef, useCallback } from "react";
 // import Header from "../Header";
 // import Footer from "../Footer";
-import styled from "styled-components";
+// import styled from "styled-components";//u
 import { Form } from "@/components/Form";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
+// import Header from "@/components/Header";//u
+// import Footer from "@/components/Footer";//u
 import { FormMobile } from "@/components/FormMobile";
 import { useMediaQuery } from "@/utils/mediaQueryHook";
 import Head from "next/head";
